@@ -1,30 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>The best</title>
     </head>
-    <body>
-        <i>The list of candidates:</i>
-        <ul>
-            <li>Maryan SHVED</li>
-            <li>TAISON Barcellos Freda</li>    
-            <li>Victor TSYHANKOV</li>
-            <li>Jorje CARRASCAL</li>
-        </ul>
-        
+    <body style="background-color:silver;">
         <form method="POST" action="https://formspree.io/danylohlynsky@gmail.com">
-        <label for="name">Name:</label>
-        <input type="text" id="name"
-             placeholder="Surname of the player" required
-             name="player">
-        <br>
-        <label>
-            Email: <input type="email" placeholder="Email"  required
-            name="user-email">
-        </label>
+            <input type="radio" name="gender" value="Shved"> Maryan SHVED
+            <br>
+            <input type="radio" name="gender" value="Taison"> Victor TSYHANKOV
+            <br>
+            <input type="radio" name="gender" value="Tsyhankov"> TAISON Barcellos Freda
+            <br>
+            <input type="radio" name="gender" value="Carrascal"> Jorje CARRASCAL
+            <br>
         <input type="submit">
     </form>
-    
+    <br>
     Go to home page: <a href="/hw1.html">UPL</a>
     </body>
 </html>
